@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+html {
+  height: 100vh;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  overflow-y: hidden;
+}
+
+input {
+  margin: 2rem 0 1rem 0;
+  padding: 1rem;
+  width: 50%;
+  font-size: 1.5rem;
+}
+
+input::placeholder {
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.emojiSpan {
+  font-size: 3rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+h4 {
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
